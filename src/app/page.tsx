@@ -33,11 +33,10 @@ export default async function HomePage() {
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
           <p className="text-xs font-bold tracking-[0.5em] mb-6 uppercase" style={{ color: '#e63329' }}>New Collection 2026</p>
           <h1 className="text-6xl md:text-9xl font-black uppercase leading-none tracking-tight mb-6" style={{ letterSpacing: '-0.02em' }}>
-            WEAR THE<br />
             <span style={{ color: '#e63329', WebkitTextStroke: '2px #e63329' }}>R3V0LUTION</span>
           </h1>
           <p className="text-lg md:text-xl mb-10 max-w-xl mx-auto" style={{ color: '#888' }}>
-            Premium street shirts. Designed to stand out. Built to last.
+            The Art of Bikes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/shop" className="btn-primary text-center">Shop Now</Link>
