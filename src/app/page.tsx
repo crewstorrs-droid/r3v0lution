@@ -91,17 +91,6 @@ export default async function HomePage() {
       {/* Brand strip */}
       <section className="py-20" style={{ background: '#111' }}>
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8 text-center">
-          {[
-            { icon: '🔥', title: 'Limited Drops', desc: 'Every shirt is a limited run. When it\'s gone, it\'s gone.' },
-            { icon: '✊', title: 'Made With Purpose', desc: 'Every design carries a message. Wear what you believe.' },
-            { icon: '📦', title: 'Fast Shipping', desc: 'Orders ship within 2-3 business days. Track every step.' },
-          ].map((item) => (
-            <div key={item.title} className="p-6">
-              <div className="text-4xl mb-4">{item.icon}</div>
-              <h3 className="font-black uppercase tracking-wide text-lg mb-2">{item.title}</h3>
-              <p className="text-sm" style={{ color: '#888' }}>{item.desc}</p>
-            </div>
-          ))}
         </div>
       </section>
     </>
